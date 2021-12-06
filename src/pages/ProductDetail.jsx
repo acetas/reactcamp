@@ -4,6 +4,7 @@ import { Button, Card, Image } from 'semantic-ui-react'
 import ProductService from '../services/productService'
 
 export default function ProductDetail() {
+
     let { name } = useParams()
 
     const [product, setProduct] = useState({})
